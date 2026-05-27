@@ -1,0 +1,47 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate compact dashboard metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: AhmedElshazlyAE
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Africa/Cairo
+          config_display: large
+          config_padding: 0, 8 + 0, 8
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_trim: yes
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_repositories: yes
+          plugin_repositories_featured: AhmedElshazlyAE/Financial-Report-RAG-Assistant, AhmedElshazlyAE/CIFAR10-Image-Classifier-ResNet-FastAPI, AhmedElshazlyAE/SimpleML
+          repositories_forks: no
