@@ -4,27 +4,31 @@
 
 **AI / Data Science Student** building practical projects in **Machine Learning**, **Computer Vision**, **RAG systems**, and **AI deployment**.
 
+<br>
+
+<a href="mailto:ahmedelshazly5262@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+</a>
 <a href="https://www.linkedin.com/in/ahmed-elshazly-513456249/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://github.com/AhmedElshazlyAE?tab=repositories">
   <img src="https://img.shields.io/badge/Portfolio-Repositories-238636?style=flat-square&logo=github&logoColor=white" />
-</a>
 
 
 </div>
 
-<br>
-
-<img align="right" width="260" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+---
 
 ## About me
 
-I’m a Data Science / AI student focused on building projects that move beyond notebooks.
+I’m a Data Science / AI student interested in building machine learning projects that are clear, useful, and easy to run.
 
-My main interest is turning machine learning ideas into clean, usable systems: training models, evaluating them properly, building APIs around them, documenting the work, and making the final project understandable for other people.
+I enjoy working across the full project pipeline: cleaning data, training models, evaluating results, building simple APIs, writing documentation, and turning experiments into portfolio-ready repositories.
 
-Right now, I’m especially interested in:
+<img align="right" width="260" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+
+Right now, I’m focused on:
 
 - Machine Learning and model evaluation  
 - Computer Vision and transfer learning  
