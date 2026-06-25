@@ -2,7 +2,7 @@
 
 # Ahmed Elshazly
 
-**AI / Data Science Student** building practical projects in **Machine Learning**, **Computer Vision**, **RAG systems**, and **AI deployment**.
+**AI / Data Science Student** building practical projects in **Machine Learning**, **Computer Vision**, **RAG systems**, and **AI deployment**
 
 <br>
 
